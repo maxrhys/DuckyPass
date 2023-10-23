@@ -141,7 +141,6 @@ Sheep
 Ship
 Shirt
 Shoe
-Skunk
 Sky
 Sloth
 Snow
