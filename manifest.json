@@ -1,0 +1,15 @@
+{
+  "name": "Ducky Pass - Password Generator",
+  "short_name": "Ducky Pass",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf0c8",
+  "theme_color": "#ffcf16",
+  "icons": [
+    {
+      "src": "duckypass_logo.png",
+      "sizes": "465x583",
+      "type": "image/png"
+    }
+  ]
+}
