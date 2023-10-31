@@ -41,3 +41,13 @@ self.addEventListener('fetch', function(event) {
     })
   );
 });
+
+// Check if the PWA is not already installed
+if (window.matchMedia('(display-mode: browser)').matches && !window.navigator.standalone) {
+  window.addEventListener('beforeinstallprompt', (e) => {
+    // Prevent the default browser installation prompt
+    e.preventDefault();
+    // Show the browser's installation prompt
+    e.prompt();
+  });
+}
