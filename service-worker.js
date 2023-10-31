@@ -13,6 +13,7 @@ self.addEventListener('install', function(event) {
         '/duckygen.js',
         '/service-worker.js'
         '/manifest.json'
+        '/service.js'
         // Add other resources that you want to cache for offline use
       ]);
     })
