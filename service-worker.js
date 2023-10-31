@@ -11,7 +11,6 @@ self.addEventListener('install', function(event) {
         '/duckypass_logo.png',
         '/duckygen.js',
         '/service-worker.js', // Add a comma here
-        '/manifest.json',      // Add a comma here
         '/service.js'          // Add a comma here
         // Add other resources that you want to cache for offline use
       ]);
