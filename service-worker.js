@@ -8,7 +8,6 @@ self.addEventListener('install', function(event) {
         '/manifest.json',
         '/duckylooks.css',
         '/favicon.png',
-        '/icon.png',
         '/duckypass_logo.png',
         '/duckygen.js',
         '/service-worker.js', // Add a comma here
